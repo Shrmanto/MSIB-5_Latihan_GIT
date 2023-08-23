@@ -1,0 +1,75 @@
+.content {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+.content .card {
+  width: 36rem;
+  border: none;
+  background-color: white;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.card-header {
+  font-weight: 700;
+}
+
+.btn {
+  position: absolute;
+  background-color: white;
+  top: 470px;
+  left: 325px;
+}
+
+.card-title .orang-1 {
+  border: 3px solid #fff;
+}
+
+.card-title .orang-2 {
+  position: absolute;
+  left: 25px;
+  border: 3px solid #fff;
+}
+
+.card-title .orang-3 {
+  position: absolute;
+  left: 40px;
+  border: 3px solid #fff;
+}
+
+.card-text {
+  text-align: justify;
+  line-height: 20px;
+}
+
+.content-link {
+  display: flex;
+  justify-content: center;
+}
+
+.instagram-icon,
+.facebook-icon,
+.linkedin-icon,
+.github-icon {
+  transition: transform 0.3s ease-in-out;
+  -webkit-transition: transform 0.3s ease-in-out;
+  -moz-transition: transform 0.3s ease-in-out;
+  -ms-transition: transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+}
+
+.instagram-icon:hover,
+.facebook-icon:hover,
+.linkedin-icon:hover,
+.github-icon:hover {
+  transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  -o-transform: scale(1.4);
+}
